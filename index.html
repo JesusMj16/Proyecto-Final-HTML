@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Perfil Personal</title>
+</head>
+<body>
+
+    
+    <nav>
+        <a href="./index.html"> Inicio</a>
+        <a href="#Sobremi"> Sobre mí</a>
+        <a href="#hobbies">Hobbies</a>
+        <a href="#contacto">Contacto</a>
+    </nav>
+
+    
+    <header>
+        <h1>Bienvenido a Mi Perfil</h1>
+        <p>Estudiante de Desarrollo Web - Fundación Traxion 2026</p>
+    </header>
+
+    <main>
+
+        
+        <section id =#Sobremi>
+            <h2>Sobre Mí</h2>
+            <p>
+                Hola, soy estudiante de programación y estoy aprendiendo 
+                <strong>HTML</strong>, <strong>CSS</strong> y <strong>JavaScript</strong>.
+                Me apasiona crear sitios web y aprender nuevas tecnologías.
+            </p>
+
+            <figure>
+                <img 
+                    src="https://via.placeholder.com/200x200" 
+                    alt="Foto de perfil"
+                    width="200"
+                    height="200"
+                >
+                <figcaption>Mi foto de perfil</figcaption>
+            </figure>
+        </section>
+
+        <hr>
+
+        <section>
+            <h2>Habilidades que estoy aprendiendo</h2>
+
+            <h3>Tecnologías Web</h3>
+            <ul>
+                <li>HTML5 - Estructura de páginas web</li>
+                <li>CSS3 - Estilos y diseño visual</li>
+                <li>JavaScript - Interactividad</li>
+            </ul>
+
+            <h3>Mis pasos en el aprendizaje</h3>
+            <ol>
+                <li>Aprender la estructura básica de HTML</li>
+                <li>Usar etiquetas semánticas correctamente</li>
+                <li>Crear formularios interactivos</li>
+                <li>Aplicar estilos con CSS</li>
+                <li>Hacer mi primer proyecto completo</li>
+            </ol>
+        </section>
+
+        <hr>
+
+        <section id="hobbies">
+            <h2> Mis Hobbies</h2>
+
+            <table border="4">
+                <caption>Actividades que disfruto</caption>
+                <thead>
+                    <tr>
+                        <th>Hobby</th>
+                        <th>Tiempo dedicado</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Programar</td>
+                        <td>2 horas al día</td>
+                    </tr>
+                    <tr>
+                        <td>Leer</td>
+                        <td>1 hora al día</td>
+                    </tr>
+                    <tr>
+                        <td>Videojuegos</td>
+                        <td>Fines de semana</td>
+                    </tr>
+                    <tr>
+                        <td>Música</td>
+                        <td>2 horas al día</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <hr>
+
+        
+        <section id="contacto">
+            <h2>Formulario de Contacto</h2>
+            <form>
+                <fieldset>
+                    <legend>Información Personal</legend>
+
+                    <label for="nombre">Nombre:</label><br>
+                    <input type="text" id="nombre" placeholder="Inserta tu nombre" required>
+                    <br><br>
+
+                    <label for="correo">Correo Electrónico:</label><br>
+                    <input type="email" id="correo" placeholder="email@example.com" required>
+                    <br><br>
+
+                    <label for="contrasena">Contraseña:</label><br>
+                    <input type="password" id="contrasena" placeholder="Inserta tu contraseña" required>
+                    <br><br>
+
+                    <label for="edad">Edad:</label><br>
+                    <input type="number" id="edad" placeholder="Tu edad" min="1" max="100" required>
+                    <br><br>
+
+                    <label for="pais">País:</label><br>
+                    <select id="pais">
+                        <option value="">-- Selecciona tu país --</option>
+                        <option value="mexico">México</option>
+                        <option value="colombia">Colombia</option>
+                        <option value="argentina">Argentina</option>
+                        <option value="otro">Otro</option>
+                    </select>
+                    <br><br>
+
+                    <label for="mensaje">Mensaje:</label><br>
+                    <textarea id="mensaje" rows="4" cols="40" placeholder="Escribe un mensaje..."></textarea>
+                    <br><br>
+
+                    <label>
+                        <input type="checkbox" required>
+                        Acepto los términos y condiciones
+                    </label>
+                    <br><br>
+
+                    <input type="submit" value="Enviar formulario">
+                    <input type="reset" value="Limpiar">
+                </fieldset>
+            </form>
+        </section>
+
+        <hr>
+
+        
+
+    </main>
+
+    <footer>
+        <hr>
+        <h3>Información del Proyecto</h3>
+        <p>Proyecto creado como parte del curso de <strong>Fundación Traxion</strong></p>
+        <p>Tecnologías usadas: <em>HTML5</em></p>
+        <p>Año: <time datetime="2026">2026</time></p>
+        <small>© Todos los derechos reservados</small>
+    </footer>
+
+</body>
+</html>
